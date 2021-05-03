@@ -4,6 +4,7 @@ class CreatePlants < ActiveRecord::Migration[6.1]
       t.string :name
       t.string :species
       t.string :colors
+      t.belongs_to :garden
 
       t.timestamps
     end
